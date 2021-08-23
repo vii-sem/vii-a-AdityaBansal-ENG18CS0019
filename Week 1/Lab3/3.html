@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>
+        3
+    </title>
+    <style>
+        body{
+            background-color:rgb(233, 220, 242);
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+        table{
+            background-color:white;
+            border: solid blue;
+            width: 30%;
+        }
+        th{
+            color: crimson;
+            font-size: 2rem;
+        }
+        td{
+            text-align: center;
+            
+        }
+    </style>
+</head>
+
+<body >
+    <table border=1>
+        <tr>
+            <th>Number</th>
+            <th>Square</th>
+            <th>Cube</th>
+        </tr>
+        <script type="text/javascript">
+            for (var n = 0; n <= 10; n++) {
+                document.write("<tr><td>" + n + "</td><td>" + n * n + "</td><td>" + n * n * n + "</td></tr>");
+            }
+        </script>
+    </table>
+</body>
+
+</html>
